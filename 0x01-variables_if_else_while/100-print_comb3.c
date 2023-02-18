@@ -17,7 +17,7 @@ int main(void)
 		putchar(j + '0');
 		putchar(k + '0');
 
-		if (i < 99)
+		if (i < 89)
 		{
 			putchar(44);
 			putchar(32);
