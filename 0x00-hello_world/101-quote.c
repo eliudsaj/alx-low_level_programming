@@ -3,7 +3,7 @@
 #include <unistd.h>
 /**
  * main - Entry point
- * Return: 1(success)
+ * Return: 1
  */
 int main(void)
 {
