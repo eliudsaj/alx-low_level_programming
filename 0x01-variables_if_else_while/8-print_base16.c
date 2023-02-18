@@ -1,14 +1,19 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Description: Print the alphabet in reverse order in lowercase.
+ * Description: Print all numbers of base64 in lowercase.
  * Return: 0(success)
  */
 int main(void)
 {
 	char c;
+	int i;
 
-	for (c = 'z'; c >= 'a'; c--)
+	for (i = 0; i < 10; i++)
+	{
+		putchar(i + '0');
+	}
+	for (c = 'a'; c < 'g'; c++)
 	{
 		putchar(c);
 	}
