@@ -1,18 +1,19 @@
 #include "main.h"
 
 /**
- * _puts - function to print a string to stdout
- * @str: char array string type
- * Description: Can only use _putchar
+ * print_rev - print a string in reverse
+ * @s: char array string type
  */
 
-void _puts(char *str)
+void print_rev(char *s)
 {
 	int i;
 
-	for (i = 0; str[i] != '\0'; i++)
-	{
-		_putchar(str[i]);
-	}
+	for (i = 0; s[i] != '\0'; i++)
+		;
+
+	for (i--; i >= 0; i--)
+		_putchar(s[i]);
+
 	_putchar('\n');
 }
