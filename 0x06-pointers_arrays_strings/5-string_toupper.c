@@ -2,9 +2,8 @@
 
 /**
  * string_toupper - changes all lowercase letters of a string to uppercase
- * @str: pointer to the string to convert
- *
- * Return: pointer to the converted string
+ * @c: string
+ * Return: c -  pointer to the converted string
  */
 
 char *string_toupper(char *c)
