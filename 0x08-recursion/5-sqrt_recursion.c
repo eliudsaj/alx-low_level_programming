@@ -13,7 +13,7 @@ int _sqrt_recursion(int n)
 	return (recurse(n, 1));
 }
 /**
- * sqrt_helper - recursively finds the square root of a number
+ * recurse - recursively finds the square root of a number
  *
  * @n: the number to find the square root of
  * @i: the current guess at the square root
